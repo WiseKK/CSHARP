@@ -14,6 +14,8 @@ namespace wangzhan
             Console.WriteLine(",,l");
             Console.WriteLine();
             Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
