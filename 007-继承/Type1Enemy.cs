@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _008
+namespace _007_继承
 {
-    internal class Program
+    internal class Type1Enemy : Enemy   
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine();
-        }
     }
 }
