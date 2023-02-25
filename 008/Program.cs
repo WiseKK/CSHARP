@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -28,6 +29,11 @@ namespace _008
 
             Enemy enemy2 = new Boss();
             enemy2.Move();
+
+            Boss b2 = new Boss();
+            b2.AI();
+            Enemy b3 = new Boss();
+            b3.AI();
         }
     }
 }

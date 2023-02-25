@@ -16,5 +16,9 @@ namespace _008
         {
             Console.WriteLine("Boss特有的技能");
         }
+        public new void AI()//隐藏重写方法 
+        {
+        Console.WriteLine("Boss自己的AI");
+        }
     }   
 }

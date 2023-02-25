@@ -12,5 +12,9 @@ namespace _008
         {
             Console.WriteLine("敌人进行移动");
         }
+        public void AI() 
+        {
+            Console.WriteLine("敌人的AI");
+        }
     }
 }
