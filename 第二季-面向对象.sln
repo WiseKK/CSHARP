@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007-继承", "007-继承\00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-抽象类", "009-抽象类\009-抽象类.csproj", "{F9B97BE9-809D-46E0-B990-36BE4D24C130}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-子类的构造", "010-子类的构造\010-子类的构造.csproj", "{71A2FA27-A96E-4C46-8763-6A91D0640001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F9B97BE9-809D-46E0-B990-36BE4D24C130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9B97BE9-809D-46E0-B990-36BE4D24C130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9B97BE9-809D-46E0-B990-36BE4D24C130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
