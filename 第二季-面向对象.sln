@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009-抽象类", "009-抽象
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010-子类的构造", "010-子类的构造\010-子类的构造.csproj", "{71A2FA27-A96E-4C46-8763-6A91D0640001}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014-索引器", "014-索引器\014-索引器.csproj", "{CAB7B94F-E3F8-4448-9994-5ED779701D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015-运算符重载", "015-运算符重载\015-运算符重载.csproj", "{79192EC1-8887-4CCE-A300-C3DD4A9417A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71A2FA27-A96E-4C46-8763-6A91D0640001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAB7B94F-E3F8-4448-9994-5ED779701D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAB7B94F-E3F8-4448-9994-5ED779701D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAB7B94F-E3F8-4448-9994-5ED779701D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAB7B94F-E3F8-4448-9994-5ED779701D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79192EC1-8887-4CCE-A300-C3DD4A9417A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79192EC1-8887-4CCE-A300-C3DD4A9417A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79192EC1-8887-4CCE-A300-C3DD4A9417A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79192EC1-8887-4CCE-A300-C3DD4A9417A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
