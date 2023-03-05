@@ -12,6 +12,7 @@ namespace _015_运算符重载
             Console.WriteLine(s1 == s2);
             Student s3 = s1;
             Console.WriteLine(s1 == s3);
+            Console.WriteLine("略略略");
 
 
         }
