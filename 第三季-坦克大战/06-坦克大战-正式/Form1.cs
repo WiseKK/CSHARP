@@ -15,14 +15,19 @@ namespace _06_坦克大战_正式
     public partial class Form1 : Form
     {
         private Thread t;
-        private Graphics g;
+        private static Graphics windowg;
+        private static Bitmap tempBitmap;
         public Form1()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
 
-            g = this.CreateGraphics();
-            GameFramework.g = g;
+            windowg = this.CreateGraphics();
+            //GameFramework.g = g;
+
+            tempBitmap = new Bitmap(450, 450);//先画好，再到布上
+            Graphics bmpG = Graphics.FromImage( tempBitmap); 
+            GameFramework.g = bmpG;
 
             t = new Thread(new ThreadStart(GameMainThread));//新线程
             t.Start();//线程启动了
@@ -37,6 +42,9 @@ namespace _06_坦克大战_正式
             {
                 GameFramework.g.Clear(Color.Black);
                 GameFramework.Update();
+
+                windowg.DrawImage(tempBitmap, 0, 0);
+
                 Thread.Sleep(sleepTime);
             }
         }

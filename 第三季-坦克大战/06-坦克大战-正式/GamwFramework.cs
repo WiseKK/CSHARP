@@ -13,13 +13,12 @@ namespace _06_坦克大战_正式
         public static Graphics g;
         public static void Start() 
         {
-        
+            GameObjectManger.CreateMap();
         }
         public static void Update() 
         {
             //FPS
-            
-        
+            GameObjectManger.DrawMap();
         }
     }
 }
