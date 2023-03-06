@@ -53,5 +53,15 @@ namespace _06_坦克大战_正式
         {
             t.Abort();
         }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            GameObjectManger.KeyDown(e);
+        }
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            GameObjectManger.KeyUp(e);
+        }
     }
 }

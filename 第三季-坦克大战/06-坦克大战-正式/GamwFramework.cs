@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace _06_坦克大战_正式
 {
@@ -21,6 +22,14 @@ namespace _06_坦克大战_正式
             //FPS
             GameObjectManger.DrawMap();
             GameObjectManger.DrawMyTank();
+        }
+        public static void KeyDown(KeyEventArgs args)
+        {
+
+        }
+        public static void KeyUp(KeyEventArgs args)
+        {
+
         }
     }
 }

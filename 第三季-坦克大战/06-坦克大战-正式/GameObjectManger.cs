@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using _06_坦克大战_正式.Properties;
 
 namespace _06_坦克大战_正式
@@ -100,6 +101,14 @@ namespace _06_坦克大战_正式
             int yPositrion = y * 30;
             bosslist = new NotMovething(xPositrion,yPositrion,img);
 
+        }
+        public static void KeyDown(KeyEventArgs args)
+        {
+            myTank.KeyDown(args);
+        }
+        public static void KeyUp(KeyEventArgs args)
+        {
+            myTank.KeyUp(args);
         }
     }
 }

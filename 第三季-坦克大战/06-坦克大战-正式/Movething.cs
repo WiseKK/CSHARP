@@ -39,7 +39,7 @@ namespace _06_坦克大战_正式
                     break;
             }
             bitmap.MakeTransparent(Color.Black);
-            return BitmapUp;
+            return bitmap;
         }
     }
 }
