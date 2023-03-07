@@ -15,23 +15,37 @@ namespace _06_坦克大战_正式
         private static NotMovething bosslist;
         private static List<NotMovething> walllist = new List<NotMovething>();
         private static MyTank myTank;
-
-        public static void DrawMap()//先创建
+        public static void Update() 
         {
             foreach (NotMovething nm in walllist)
             {
-                nm.DrawSelf();
+                nm.Update();
             }
             foreach (NotMovething nm in steellist)
             {
-                nm.DrawSelf();
+                nm.Update();
             }
-            bosslist.DrawSelf();
+            bosslist.Update();
+            myTank.Update();
+
         }
-        public static void DrawMyTank()//绘制方法
-        { 
-            myTank.DrawSelf();
-        }
+
+        //public static void DrawMap()//先创建
+        //{
+        //    foreach (NotMovething nm in walllist)
+        //    {
+        //        nm.DrawSelf();
+        //    }
+        //    foreach (NotMovething nm in steellist)
+        //    {
+        //        nm.DrawSelf();
+        //    }
+        //    bosslist.DrawSelf();
+        //}
+        //public static void DrawMyTank()//绘制方法
+        //{ 
+        //    myTank.DrawSelf();
+        //}
         public static void CreateMyTank()
         {
             int x = 5 * 30;

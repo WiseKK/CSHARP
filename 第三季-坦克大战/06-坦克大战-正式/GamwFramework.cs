@@ -20,8 +20,9 @@ namespace _06_坦克大战_正式
         public static void Update() 
         {
             //FPS
-            GameObjectManger.DrawMap();
-            GameObjectManger.DrawMyTank();
+            //GameObjectManger.DrawMap();
+            //GameObjectManger.DrawMyTank();
+            GameObjectManger.Update();
         }
         public static void KeyDown(KeyEventArgs args)
         {

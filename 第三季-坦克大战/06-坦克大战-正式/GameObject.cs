@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace _06_坦克大战_正式
 {
@@ -23,6 +24,10 @@ namespace _06_坦克大战_正式
         {
             Graphics g = GameFramework.g;
             g.DrawImage(GetImage(),X,Y);
+        }
+        public virtual void Update()
+        {
+            DrawSelf();
         }
     }
 }
