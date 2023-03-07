@@ -14,6 +14,8 @@ namespace _06_坦克大战_正式
     {
         public int X { get; set; }
         public int Y { get; set; }
+        public int Width { get; set; }
+        public int Height { get; set; }
         //等同于
         //private int X;
         //public int X { get { return x; } set { value = x; } }

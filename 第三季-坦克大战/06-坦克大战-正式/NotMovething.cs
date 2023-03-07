@@ -12,7 +12,17 @@ namespace _06_坦克大战_正式
   */
     internal class NotMovething :GameObject
     {
-        public Image Img { get; set; }
+        private Image img;
+        public Image Img
+        {
+            get { return img; }
+            set
+            {
+                img = value;
+                Width = img.Width;
+                Height = img.Height;
+            }
+        }
 
         protected override Image GetImage()
         {

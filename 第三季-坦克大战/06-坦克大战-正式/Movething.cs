@@ -18,7 +18,32 @@ namespace _06_坦克大战_正式
         public Bitmap BitmapRight { get; set; }
 
         public int Speed { get; set; }
-        public Direction Dir { get; set; }
+        public Direction dir;
+        public Direction Dir { get { return dir; }
+            set
+            {
+                dir = value;
+                Bitmap bmp = null;
+                switch (dir)
+                {
+                    case Direction.Up:
+                        bmp = BitmapUp;
+                        break;
+                    case Direction.Down:
+                        bmp = BitmapDown;
+                        break;
+                    case Direction.Left:
+                        bmp = BitmapLeft;
+                        break;
+                    case Direction.Right:
+                        bmp = BitmapRight;
+                        break;
+                }
+                    Width = bmp.Width;
+                    Height = bmp.Height;
+                }
+            }
+        
 
         protected override Image GetImage()
         {
