@@ -18,7 +18,7 @@ namespace _06_坦克大战_正式
         public Bitmap BitmapRight { get; set; }
 
         public int Speed { get; set; }
-        public Direction dir;
+        private Direction dir;
         public Direction Dir { get { return dir; }
             set
             {
