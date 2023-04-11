@@ -46,13 +46,25 @@ namespace _03_字符串
             //}
             //#endregion
 
+            //格式化
+            int x = 23;
+            int y = 25;
+            int z = x + y;
+            Console.WriteLine(string.Format("{0}+{1}={2}",x,y,z));
+            int money = 120000;
+            Console.WriteLine(string.Format("{0:C}",money));//用货币方式
+            Console.WriteLine(string.Format("{0:F2}", 25.15536));//保留多少小数（四舍五入）
+            Console.WriteLine(string.Format("{0}"+"元", money));//货币方式
+            Console.WriteLine(string.Format("{0:P}", 0.112354));//百分比
+            DateTime dt = DateTime.Now;
+            Console.WriteLine(string.Format("{0:yyyy-MM-dd HH:mm}",dt));//年月日格式化
 
+            Console.WriteLine(s.IndexOf("k"));//索引
 
+            Console.WriteLine(s.Insert(13,"smkcm"));//插入
 
-
-
-
+            char[] CA = { 'A', 'B', 'C', 'D' };
+            Console.WriteLine(string.Join("...",CA));
         }
-
     }
 }
