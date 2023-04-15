@@ -22,10 +22,21 @@ namespace _06_委托
             {
                 invoker2(2, 23);
             }
+        DoubleOpDelegate[] operaions = { MathOp.MultiplayByTwo, MathOp.Square };
+            foreach (DoubleOpDelegate op in operaions)
+            {
+                Console.WriteLine(op(3)); 
+            }
+
         }
         private static void test(int x)
         {
             Console.WriteLine("我是test方法："+ x);
         }
+
+        delegate double DoubleOpDelegate(double a);
+        
+
+        
     }
 }
